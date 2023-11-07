@@ -1,0 +1,79 @@
+body{
+	background: url("C:Users/admin/Desktop/IMG.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+nav{
+	height: fit-content;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.logo{
+	height: fit-content;
+	width: 100%;
+	align-items: center;
+	color:black;
+	background-color: white;
+	font-family: 'Dancing Script';
+	font-size: 15px;
+	margin-top: 0PX;
+	padding:3px;
+}
+
+
+.menu{
+	text-decoration: none;
+}
+.a{
+	color: black;
+	
+ }
+ a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
+.register{
+	background: indianred;
+	padding: 5px;
+	text-decoration: none;
+	margin: 0 5px;
+	color: white;
+}
+ .h-txt{
+ 	max-width: 600px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	text-align: center;
+ 	color: orange;
+
+ }
+ .h-txt span{
+ 	letter-spacing: 5px;
+ 	color: greenyellow;
+ 	font-family: cursive;
+ }
+ .h-txt h1{
+ 	font-size: 2cm;
+ }	
+ .h-txt h2{
+ 	font-size: 2cm;
+ 	color: ;
+ }	
+ .h-txt a{
+ 	text-decoration: none;
+ 	background: indianred;
+ 	color: white;
+ 	padding: 10px 20px;
+ 	letter-spacing: 5px;
+ }
+

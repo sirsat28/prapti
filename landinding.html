@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+  <div id="header">
+  	<div class="container1">
+  		<nav>
+  			<img src="C:\Users\admin\Desktop\sp.jpg" class="logo">
+  			<ul style="text-decoration: none;">
+  				<li><a href="#">Home</a></li>
+  				<li><a href="#">About</a></li>
+  				<li><a href="#">Services</a></li>
+  				<li><a href="#">Contact</a></li>
+  			</ul>
+  		</nav>
+
+  </div>
+  		<div class="header-text">
+  		<h2>Hi,I'm <span> Prapti</span><br> Sirsat from maharashtra </h2>
+    </div>
+  	</div>
+  <!-- About -->
+  <div id="about">
+  	<div class="container">
+  		 <div class="row">
+  		 	<div class="about-col-1">	
+  		 		<img src="C:/Users/admin/Desktop/photo.jpg">
+  		 	</div>
+  		 	<div class="about-col-2">	
+  		 		<h1 class="subtitle">About Me</h1>
+  		 		<p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively</p>
+  		 			<div class="tab-titles ">
+  		 				<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+  		 				<p class="tab-links "onclick="opentab('experience')">Experience</p>
+  		 				<p class="tab-links "onclick="opentab('education')">Education</p>
+  		 			</div>
+  		 		 <div class="tab-contents active-tab" id="skills">
+              <ul>
+                 <li>Programming Languages</li>
+                 <li>Leadership Skill</li>
+                 <li> Management Skill</li>
+              </ul>   
+           </div>
+           <div class="tab-contents"id="experience">
+               <ul>
+                 <li>Freshers</li>
+                 <li>6 month Internship</li>
+              </ul> 
+           </div>
+           <div class="tab-contents"id="education"><ul>
+                <li><span>2023</span>currently doing master</li>
+                 <li><span>2018</span>10th passout</li>
+                 <li><span>2020</span>12th passout</li>
+                 <li><span>2023</span>bachlor degree </li>
+              </ul> 
+                 
+           </div>
+  		 	</div>
+  		 
+  		 </div>
+  	</div>
+  	
+  </div>
+  <!-- cv  -->
+  <div class="detail">
+    <H2>Resume section</H2>
+     <a href="C:\Users\admin\Desktop\resume.jpg"><strong>Download CV</strong></a>
+   </div>
+   <div id="contact">
+    <div class="container">
+        <h3 class="subtitle">Contact Me</h3>
+        <p>mail:abc@gmail.com</p>
+        <p>num:0123456789</p>
+    </div>
+     
+   </div>
+   <div class="footer-bottom">
+     <p>Copyright &copy:2023;Designed by<span class="designer"> Prapti </span></p>
+   </div>
+  <script >
+    var tablinks=document.getElementsByClassName('tab-links');
+    var contents=document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for(tablink of tablinks){
+          tablinks.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("actve-tab");
+    }
+  </script>
+</body>
+</html>
